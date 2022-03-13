@@ -24,3 +24,16 @@ tengo dos webpack.config, uno es para solo lo que sale en produccion y otro es m
 SIEMPRE que cargo un nuevo paquete tengo que configurarlo en el webpack, en el package.json aparece los datos de estos.
 
 BABEL es un compilador de js que permite el uso de js moderno y los compila en js que puedan leer todos los buscadores
+
+archivo ".gitignore" sirve para ignorar archivos que no requieren guardado
+///** COMANDOS ***///
+
+npm run build: para crear el dist de produccion.
+npm start: iniciar en servidor casero por ahora
+npm install: para descargar la carpeta de node_modules
+
+git add .: para agregar este proyecto
+git commit -m: para subirlo
+
+git checkout -- .:  iniciar guardado de 
+git log: para verificar si tengo un proyecto listo para subir
