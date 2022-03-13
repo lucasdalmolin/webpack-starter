@@ -32,9 +32,11 @@ npm run build: para crear el dist de produccion.
 npm start: iniciar en servidor casero por ahora
 npm install: para descargar la carpeta de node_modules
 
+/*PARA SUBIR O HACER CAMBIOS EN EL REPOSITORIO*/
 git add .: para agregar los cambios de este proyecto
 git commit -m: para subirlo con un nombre
 git push: empujo los cambios
 
+git status: sirve para ver los archivos sin seguimiento
 git checkout -- .:  iniciar guardado de 
 git log: para verificar si tengo un proyecto listo para subir
