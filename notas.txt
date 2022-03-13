@@ -1,0 +1,26 @@
+
+//*** ALGUNAS NOTAS ***//
+
+Webpack sirve para realizar configuraciones sobre los paquetes que descargamos para realizar algunas tareas automaticas, como minimizar archivos, arreglar errores, solucionar problemas de compatibilidad entre otros.
+
+En el archivo package.json agregue en la propiedad "script:{}" una propiedad llamada "build: '(nombre cualquiera)'"
+(ante cualquier duda ir a la pagina de Webpack para ver como iniciarlo.)
+
+/* DESCRIPCIONES */
+
+JSON: JavaScript Object Notation. Es una manera liviana para guardar y traansportar data.
+
+Dist: carpeta donde para el "main.js"(archivo js principal com primido), y es la carpeta final de produccion, o mejor dicho lo que ya es lo que va a salir en nuestro producto sin cosas extras como anotaciones, tabulaciones etc.
+
+src: carpeta donde guardo todos los archivos con los cuales estoy trabajando, html, css y js, o sus derivado como sass, react etc.
+
+//npm run build, npm start
+
+Cuando hago "npm start" en la consola, inicio el proyecto
+no es necesario abrir el archivo html. Con el dist/index.html veo como quedaria la app terminada
+
+tengo dos webpack.config, uno es para solo lo que sale en produccion y otro es mientras trabajo
+
+SIEMPRE que cargo un nuevo paquete tengo que configurarlo en el webpack, en el package.json aparece los datos de estos.
+
+BABEL es un compilador de js que permite el uso de js moderno y los compila en js que puedan leer todos los buscadores

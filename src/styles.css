@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;
+    background-color: rgb(122, 81, 81);
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
